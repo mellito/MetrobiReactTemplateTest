@@ -29,10 +29,9 @@ h5 {
 
 .App {
   height: 100vh;
-  display: flex;
-  flex-direction: column;
   color: #ffff;
   text-transform: capitalize;
+  flex-grow: 7;
 }
 .flex-column {
   display: flex;
@@ -53,7 +52,6 @@ h5 {
 
 .maincontent {
   background-color: #f5bb1c;
-  flex-grow: 7;
 }
 
 .extracontent {

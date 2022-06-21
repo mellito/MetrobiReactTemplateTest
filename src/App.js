@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <section className="Appmidcontainer">
+      <section className="Appmidcontainer flex-column">
         <article className="flex-column grow1 ">
           <Hero />
           <SideBar />
