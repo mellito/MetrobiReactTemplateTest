@@ -12,16 +12,16 @@ function App() {
     <div className="App">
       <Header />
       <section className="Appmidcontainer">
-        <article className="flex-column ">
+        <article className="flex-column grow1 ">
           <Hero />
           <SideBar />
         </article>
-        <article className="flex-column">
+        <article className="flex-column grow1">
           <MainContent />
           <ExtraContent />
         </article>
       </section>
-      <section className="relatedsection">
+      <section className="relatedsection grow1">
         <RelatedImages />
         <RelatedPost />
       </section>

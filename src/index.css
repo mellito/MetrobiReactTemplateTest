@@ -23,10 +23,14 @@ h5 {
   padding-top: 10px;
 }
 
+.grow1 {
+  flex-grow: 1;
+}
+
 .App {
   height: 100vh;
-  display: grid;
-  grid-template-rows: 1fr 8fr 1.5fr 1fr;
+  display: flex;
+  flex-direction: column;
   color: #ffff;
   text-transform: capitalize;
 }
@@ -41,7 +45,6 @@ h5 {
 
 .hero {
   background-color: #c079c1;
-  flex-grow: 1;
 }
 .sidebar {
   background-color: #1b5131;
@@ -63,8 +66,8 @@ h5 {
 }
 
 .Appmidcontainer {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+  flex-grow: 7;
+  display: flex;
 }
 
 .relatedsection {
@@ -79,4 +82,17 @@ h5 {
 .relatedpost {
   background-color: rgba(238, 136, 211, 0.783);
   flex-grow: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .Appmidcontainer {
+    flex-direction: column;
+  }
+  .header {
+    flex-grow: 1;
+  }
+
+  .relatedsection {
+    flex-direction: column;
+  }
 }
