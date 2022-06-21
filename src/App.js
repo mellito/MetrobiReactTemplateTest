@@ -9,14 +9,14 @@ import RelatedPost from "./components/RelatedPost";
 import Footer from "./components/Footer";
 function App() {
   return (
-    <div className="App">
+    <div className="App flex-column">
       <Header />
-      <section className="Appmidcontainer flex-column">
+      <section className="Appmidcontainer">
         <article className="flex-column grow1 ">
           <Hero />
           <SideBar />
         </article>
-        <article className="flex-column grow1">
+        <article className="flex-column grow1 ">
           <MainContent />
           <ExtraContent />
         </article>
